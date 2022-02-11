@@ -1,0 +1,44 @@
+.team {}
+
+.team__title {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.team__photo {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.team__members {
+  display: flex;
+  margin: 0 -50px;
+}
+
+.member {
+  margin: 0 50px 0 50px;
+  flex: 1;
+  color: white;
+}
+
+.member__name {
+  margin-bottom: 30px;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.member__story {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}

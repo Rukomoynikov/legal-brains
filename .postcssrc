@@ -1,6 +1,17 @@
 {
   "plugins": {
-    "postcss-import-ext-glob": true,
+    "postcss-custom-media": {
+      importFrom: [
+        'src/style.postcss.css',
+        { 
+          customMedia: { 
+            '--small-viewport': '(max-width: 30em)' 
+          }
+        }
+      ]
+    },
     "postcss-import": true,
+    "postcss-url": true,
+    "postcss-custom-properties": true
   }
 }

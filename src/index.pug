@@ -1,11 +1,22 @@
 doctype html
 head
   meta(charset='utf-8')
-  title My First Parcel App
+  title Адвокатское бюро «Legal Brains» 
   link(rel='stylesheet' href='style.postcss.css')
   script(src='app.js' defer='')
 body
-  .layer__background
   .layer__content
-    include blocks/header.pug
-    .hero Полная версия сайта появиться по этому адресу в феврале 2022 года
+    .layer__header
+      include blocks/header.pug
+    .layer__announcement
+      include blocks/announcement.pug
+    .layer__hero
+      include blocks/hero.pug
+    .layer__our_values
+      include blocks/our_values.pug
+    .layer__team
+      include blocks/team.pug
+    .layer__centeredLogo
+      include blocks/centeredLogo.pug
+    .layer__footer
+      include blocks/footer.pug

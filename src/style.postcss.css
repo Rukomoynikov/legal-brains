@@ -1,5 +1,11 @@
+@import "./blocks/announcement.postcss.css";
+@import "./blocks/centeredLogo.postcss.css";
+@import "./blocks/footer.postcss.css";
+@import "./blocks/header.postcss.css";
+@import "./blocks/hero.postcss.css";
+@import "./blocks/our_values.postcss.css";
+@import "./blocks/team.postcss.css";
 @import "./assets/fonts/source_sans_pro/stylesheet.css";
-@import-glob "./blocks/**/*.postcss.css";
 
 * {
   box-sizing: border-box;
@@ -20,7 +26,7 @@ body {
   position: fixed;
   left: calc(50% - 1280px);
   top: 0;
-  height: 100%;
+  height: 4260px;
 }
 
 .layer__content {
@@ -29,12 +35,22 @@ body {
   margin: auto;
 }
 
-.header {
-  margin-top: 40px;
-  display: flex;
-  align-items: flex-start;
+.layer__announcement {
+  margin-bottom: 300px;
 }
 
-.hero {
-  margin-top: 60px;
+.layer__hero {
+  margin-bottom: 200px;
+}
+
+.layer__our_values {
+  margin-bottom: 250px;
+}
+
+.layer__team {
+  margin-bottom: 250px;  
+}
+
+.layer__centeredLogo {
+  margin-bottom: 250px;   
 }

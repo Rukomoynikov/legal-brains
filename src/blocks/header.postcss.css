@@ -1,9 +1,23 @@
+.header {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
 .header__logo {}
 
 .header__contacts {
   display: flex;
   margin-right: 100px;
   margin-left: auto;
+}
+
+.headerContact {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 .headerContact + .headerContact {

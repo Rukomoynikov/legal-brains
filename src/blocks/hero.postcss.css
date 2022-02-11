@@ -1,0 +1,26 @@
+.hero {
+  color: white;
+}
+
+.hero__label {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.hero__text {
+  font-family: Source Sans Pro;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101px;
+}
+
+@media screen and (min-width: 450px) {
+  .hero__text {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
