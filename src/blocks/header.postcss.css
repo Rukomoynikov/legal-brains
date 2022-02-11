@@ -1,0 +1,32 @@
+.header__logo {}
+
+.header__contacts {
+  display: flex;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+.headerContact + .headerContact {
+  margin-left: 60px;
+}
+
+.headerPhotos {}
+
+.headerPhotos__text {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.headerPhotos__photo {
+  width: 100px;
+}
+
+.headerContact {
+  color: white;
+}

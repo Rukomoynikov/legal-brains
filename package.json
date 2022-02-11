@@ -1,12 +1,17 @@
 {
   "name": "my-project",
-  "source": "src/index.html",
+  "source": "src/index.pug",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "@parcel/transformer-pug": "^2.3.1",
+    "parcel": "latest",
+    "postcss": "^8.4.6",
+    "postcss-import": "^14.0.2",
+    "postcss-import-ext-glob": "^2.0.1",
+    "postcss-nesting": "^10.1.2"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
