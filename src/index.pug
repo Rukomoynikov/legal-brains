@@ -3,8 +3,9 @@ head
   meta(charset='utf-8')
   title Адвокатское бюро «Legal Brains» 
   link(rel='stylesheet' href='style.postcss.css')
-  script(src='app.js' defer='')
+  script(src='app.js' defer='true')
 body
+  .layer__background#bg
   .layer__content
     .layer__header
       include blocks/header.pug

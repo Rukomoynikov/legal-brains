@@ -15,18 +15,21 @@ body {
   font-family: "Source Sans Pro";
   padding: 0;
   margin: 0;
-  background-color: #1B1B1B;
+  /*background-color: #1B1B1B;*/
   padding: 0 50px;
 }
 
 .layer__background {
-  width: 2560px;
+/*  width: 2560px;
   background-image: url("./assets/images/background.svg");
   background-position: top center;
-  position: fixed;
-  left: calc(50% - 1280px);
-  top: 0;
+  height: 4260px;*/
+  background-color: #1B1B1B;
+  width: 100%;
   height: 4260px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .layer__content {
