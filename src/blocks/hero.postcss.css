@@ -18,9 +18,24 @@
   line-height: 101px;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 1440px) {
   .hero__text {
     font-size: 60px;
     line-height: 75px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hero__text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero__text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
