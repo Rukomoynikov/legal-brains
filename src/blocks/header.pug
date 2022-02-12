@@ -1,9 +1,13 @@
 .header
-  img.header__logo(src='assets/images/logo.svg')
-  .header__contacts
-    .headerContact +7 925 072 72 88
-    .headerContact office@legalbrains.ru
-    .headerContact Москва, ул. Садовническая, д.24 с3, 1 этаж
+  .header__leftBlock
+    img.header__logo(src='assets/images/logo.svg')
+    .header__contacts
+      .headerContact +7 925 072 72 88
+      .headerContact office@legalbrains.ru
+      .headerContact 
+        | Москва, ул. Садовническая, 
+        br
+        | д.24 с3, 1 этаж
   .header__photos.headerPhotos
     img.headerPhotos__photo(src='assets/images/foto1.png')
     img.headerPhotos__photo(src='assets/images/foto2.png')

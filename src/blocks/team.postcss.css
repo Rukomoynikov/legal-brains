@@ -16,12 +16,12 @@
 }
 
 .team__members {
-  display: flex;
-  margin: 0 -50px;
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .member {
-  margin: 0 50px 0 50px;
   flex: 1;
   color: white;
 }
@@ -42,3 +42,26 @@
   font-weight: 400;
   line-height: 18px;
 }
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 961px) {
+  .team__members {
+    grid-gap: 60px 39px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .team__members {
+    grid-gap: 50px;
+    grid-template-columns: 1fr;
+  }
+
+}
+

@@ -35,3 +35,37 @@
   line-height: 25px;
   color: white;
 }
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 961px) {
+}
+
+@media screen and (max-width: 375px) {
+  .our_values {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .our_values__value {
+    margin: 0;
+  }
+
+  .our_values__value + .our_values__value {
+    margin-top: 50px;
+  }
+
+  .valueItem__title {
+    width: 70px;
+    height: 70px;
+  }
+
+  .valueItem__title, .valueItem__text {
+    font-size: 14px;
+  }
+}
+

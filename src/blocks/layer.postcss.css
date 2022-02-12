@@ -1,0 +1,49 @@
+.layer__content {
+  position: relative;
+  max-width: 2560px;
+  margin: auto;
+}
+
+.layer__announcement {
+  margin-top: 60px;
+  margin-bottom: 300px;
+}
+
+.layer__hero {
+  margin-bottom: 200px;
+}
+
+.layer__our_values {
+  margin-bottom: 250px;
+}
+
+.layer__team {
+  margin-bottom: 250px;  
+}
+
+.layer__centeredLogo {
+  margin-bottom: 250px;   
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 961px) {
+  .layer__announcement {
+    margin-bottom: 250px;
+  }
+
+  .layer__hero, .layer__our_values {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .layer__hero, .layer__our_values {
+    margin-bottom: 50px;
+  }
+}
+

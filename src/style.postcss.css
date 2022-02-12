@@ -5,6 +5,7 @@
 @import "./blocks/hero.postcss.css";
 @import "./blocks/our_values.postcss.css";
 @import "./blocks/team.postcss.css";
+@import "./blocks/layer.postcss.css";
 @import "./assets/fonts/source_sans_pro/stylesheet.css";
 
 :root {
@@ -31,45 +32,8 @@ body {
   left: 0;
 }
 
-.layer__content {
-  position: relative;
-  max-width: 2560px;
-  margin: auto;
-}
-
-.layer__announcement {
-  margin-bottom: 300px;
-}
-
-.layer__hero {
-  margin-bottom: 200px;
-}
-
-.layer__our_values {
-  margin-bottom: 250px;
-}
-
-.layer__team {
-  margin-bottom: 250px;  
-}
-
-.layer__centeredLogo {
-  margin-bottom: 250px;   
-}
-
-@media screen and (max-width: 768px) {
-}
 
 @media screen and (max-width: 375px) {
-  .headerPhotos__text {
-    width: 80px;
-    height: 80px;
-  }
-
-  .headerPhotos__photo {
-    width: 40px;
-  }
-
   body {
     padding: 0 15px;
   }
