@@ -43,9 +43,6 @@
 }
 
 @media screen and (max-width: 961px) {
-}
-
-@media screen and (max-width: 375px) {
   .our_values {
     margin: 0;
     flex-direction: column;
@@ -64,6 +61,12 @@
     height: 70px;
   }
 
+  .valueItem__title, .valueItem__text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .valueItem__title, .valueItem__text {
     font-size: 14px;
   }

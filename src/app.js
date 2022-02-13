@@ -74,4 +74,4 @@ var flyGradiend = {
   }
 };
 
-flyGradiend.init();
+// flyGradiend.init();
