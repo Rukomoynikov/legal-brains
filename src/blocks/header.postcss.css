@@ -13,6 +13,10 @@
 
 .header__logo {}
 
+.header__logo--mobile {
+  display: none;
+}
+
 .header__contacts {
   display: flex;
   margin-right: 100px;
@@ -93,7 +97,15 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 585px) {
+  .header__logo {
+    display: none;
+  }
+
+  .header__logo--mobile {
+    display: block;
+  }
+
   .header__contacts {
     margin-top: 130px;
   }

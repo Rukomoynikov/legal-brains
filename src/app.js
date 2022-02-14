@@ -74,7 +74,7 @@ var flyGradiend = {
   }
 };
 
-flyGradiend.init();
+// flyGradiend.init();
 
 function offset(el) {
     var rect = el.getBoundingClientRect(),

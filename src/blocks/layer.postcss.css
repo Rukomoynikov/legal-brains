@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 585px) {
   .layer__hero, .layer__our_values {
     margin-bottom: 50px;
   }

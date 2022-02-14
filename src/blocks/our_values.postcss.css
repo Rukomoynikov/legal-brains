@@ -66,9 +66,12 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 585px) {
   .valueItem__title, .valueItem__text {
     font-size: 14px;
   }
-}
 
+  .valueItem__title {
+    margin-bottom: 20px;
+  }
+}
