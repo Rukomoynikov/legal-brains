@@ -1,0 +1,37 @@
+.logo-svg {
+  fill: white;
+}
+
+/* Animation on hover */
+
+.logo-svg .line {
+  transform: scaleY(0);
+}
+
+.logo-svg:hover .rest-of-logo {
+  animation: go-down .7s ease-in-out 0s normal forwards;
+}
+
+.logo-svg:hover .line:nth-of-type(1) {
+  animation: rise .5s ease-in-out .2s normal forwards;
+}
+
+.logo-svg:hover .line:nth-of-type(2) {
+  animation: rise .5s ease-in-out .3s normal forwards;
+}
+
+.logo-svg:hover .line:nth-of-type(3) {
+  animation: rise .5s ease-in-out .4s normal forwards;
+}
+
+@keyframes go-down {
+  to {
+    transform: translateY(40px);
+  }
+}
+
+@keyframes rise {
+  to {
+    transform: scaleY(1);
+  }
+}

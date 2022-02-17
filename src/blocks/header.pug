@@ -1,7 +1,9 @@
 .header
   .header__leftBlock
-    img.header__logo(src='assets/images/logo.svg')
-    img.header__logo--mobile(src='assets/images/logo-mobile.svg')
+    .header__logo
+      include /assets/images/logo.svg
+    .header__logo--mobile
+      include /assets/images/logo-mobile.svg
     .header__contacts
       a.headerContact(href="tel:+79250727288") +7 925 072 72 88
       .headerContact(href="mailto:office@legalbrains.ru") office@legalbrains.ru
