@@ -24,7 +24,7 @@
   animation: rise .5s ease-in-out .4s normal forwards;
 }
 
-.logo-svg-mobile:hover {
+.logo-svg-mobile:hover, .logo-svg-desktop:hover {
   height: 100px;
   transition: .3s all;
 }
