@@ -55,23 +55,19 @@
   .our_values__value + .our_values__value {
     margin-top: 50px;
   }
+}
 
+@media screen and (max-width: 585px) {
   .valueItem__title {
     width: 70px;
     height: 70px;
   }
 
-  .valueItem__title, .valueItem__text {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 585px) {
-  .valueItem__title, .valueItem__text {
-    font-size: 14px;
-  }
-
   .valueItem__title {
     margin-bottom: 20px;
+  }
+
+  .valueItem__text {
+    font-size: 14px;
   }
 }
