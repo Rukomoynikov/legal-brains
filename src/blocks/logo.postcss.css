@@ -24,6 +24,11 @@
   animation: rise .5s ease-in-out .4s normal forwards;
 }
 
+.logo-svg-mobile:hover {
+  height: 100px;
+  transition: .3s all;
+}
+
 @keyframes go-down {
   to {
     transform: translateY(40px);

@@ -1,4 +1,4 @@
-<svg class="logo-svg" xmlns="http://www.w3.org/2000/svg">
+<svg class="logo-svg logo-svg-mobile" xmlns="http://www.w3.org/2000/svg" width="51px" height="51px">
   <path class="rest-of-logo" d="M37.648 49.8078H17.1941C7.73414 49.8078 0 42.1155 0 32.6283V9.61548H43.4646L50.8791 37.0514H39.5655L37.648 49.8078ZM6.39185 16.0257V32.6283C6.39185 38.5898 11.2497 43.4616 17.1941 43.4616H32.151L34.0686 30.7052H42.5058L38.6068 16.0257H6.39185Z" />
   <path class="hat" d="M43.4646 0H0V6.41026H43.4646V0Z" />
   <rect class="line" width="6.3" height="36" x="7" y="9" />
