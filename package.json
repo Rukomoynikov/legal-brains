@@ -3,7 +3,7 @@
   "source": "src/index.pug",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url https://rukomoynikov.github.io/legal-brains/ && cp src/CNAME dist"
+    "build": "parcel build --public-url https://legalbrains.ru && cp src/CNAME dist"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.3.1",
