@@ -31,6 +31,7 @@
 
 .layer__our_values {
   margin-bottom: 250px;
+  overflow: hidden;
 }
 
 .layer__team {
