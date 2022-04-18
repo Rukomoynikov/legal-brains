@@ -21,11 +21,4 @@
 body {
   font-family: "Source Sans Pro";
   margin: 0;
-  padding: 0 20px;
-}
-
-@media screen and (max-width: 585px) {
-  body {
-    padding: 0 15px;
-  }
 }

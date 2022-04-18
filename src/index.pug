@@ -6,12 +6,12 @@ head
   script(src='app.js' defer='true')
   meta(name="viewport" content="width=device-width, initial-scale=1")
 body
+  .layer__announcement
+    include blocks/announcement.pug
   .layer__background#bg
   .layer__content
     .layer__header
       include blocks/header.pug
-    .layer__announcement
-      include blocks/announcement.pug
     .layer__hero
       include blocks/hero.pug
     .layer__our_values
